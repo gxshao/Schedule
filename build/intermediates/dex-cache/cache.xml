@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\WorkingSpaceForAS\Shao\Schedule\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="E:\WorkingSpaceForAS\Shao\Schedule\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-22.2.1_bf3c357b9b7b433e26e680a291148c04c09e3892.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\SoftWare\android-sdk_r24.1.2-windows\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="E:\WorkingSpaceForAS\Shao\Schedule\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1_eeb2a74c2f3df431bb098a1556a8d3d5656bf5e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\WorkingSpaceForAS\Shao\Schedule\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="6a7550c3cb9882306fccc1fdd16c696ac9c69d0d">
+        <dex dex="E:\WorkingSpaceForAS\Shao\Schedule\app\build\intermediates\pre-dexed\debug\instant-run_cd673906572853807351759b957e98a14ad651a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\WorkingSpaceForAS\Shao\Schedule\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="ba6e3118c0dd9fbb3a5c6c04df990f100840b1bd">
+        <dex dex="E:\WorkingSpaceForAS\Shao\Schedule\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_da3cd8cc53cf7e456ee7199969dbcf72e090df95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\WorkingSpaceForAS\Shao\Schedule\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="E:\WorkingSpaceForAS\Shao\Schedule\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1_55d1a0a79e88950cf427dbc957f6bf3409266984.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\WorkingSpaceForAS\Shao\Schedule\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="E:\WorkingSpaceForAS\Shao\Schedule\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-22.2.1_b301ae97c70ee896f718a92acaf30514ce2d86bf.jar" />
+    </item>
+
+</items>

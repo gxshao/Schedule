@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.schedule.shao.memday.MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"></android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/btn_menu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/footer_menubg"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/btn_today"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="0.25"
+                android:button="@null"
+                android:drawableTop="@drawable/today_file"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:tag="1"
+                android:text="纪念日列表"
+                android:textColor="@drawable/txtcolor_file" />
+
+
+            <RadioButton
+                android:id="@+id/btn_month"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="0.25"
+                android:button="@null"
+                android:drawableTop="@drawable/month_file"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:tag="2"
+                android:text="日历"
+                android:textColor="@drawable/txtcolor_file" />
+
+            <RadioButton
+                android:id="@+id/btn_add"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="0.25"
+                android:button="@null"
+                android:drawableTop="@drawable/add_file"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:tag="3"
+                android:text="添加"
+                android:textColor="@drawable/txtcolor_file" />
+
+
+            <RadioButton
+                android:id="@+id/btn_settings"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="0.25"
+                android:button="@null"
+                android:drawableTop="@drawable/settings_file"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:tag="4"
+                android:text="设置"
+                android:textColor="@drawable/txtcolor_file" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+
+</RelativeLayout>

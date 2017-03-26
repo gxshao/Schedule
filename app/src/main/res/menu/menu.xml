@@ -1,0 +1,79 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/hideCompleted"
+        android:icon="@drawable/completed_edit"
+        android:orderInCategory="100"
+        android:title="隐藏已完成"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/SortByTime"
+        android:icon="@drawable/sort_by_date"
+        android:orderInCategory="100"
+        android:title="按时间排序"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/SortByTitle"
+
+
+        android:icon="@drawable/sort_by_title"
+        android:orderInCategory="100"
+        android:title="按标题排序"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/SortByPri"
+        android:icon="@drawable/sort_by_priority"
+        android:orderInCategory="100"
+        android:title="按优先级排序"
+
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/SearchByDate"
+
+
+        android:icon="@drawable/icon_search"
+        android:orderInCategory="100"
+        android:title="按日期搜索"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/SearchByTitle"
+
+
+        android:icon="@drawable/icon_search"
+        android:orderInCategory="100"
+        android:title="按标题搜索"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/thisMonth"
+
+        android:icon="@drawable/icon_month"
+        android:orderInCategory="100"
+        android:title="本月"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/SaveAndQuit"
+        android:icon="@drawable/ic_menu_savetask_light"
+        android:orderInCategory="100"
+        android:title="保存并完成"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/SaveAndNew"
+        android:icon="@drawable/ic_menu_newtask_light"
+        android:orderInCategory="100"
+        android:title="保存并新建"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/btn_SendMsg"
+        android:icon="@drawable/ic_menu_share_light"
+        android:orderInCategory="100"
+        android:title="发送短信"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/btn_Cancel"
+        android:icon="@drawable/ic_menu_delete_light"
+        android:orderInCategory="100"
+        android:title="取消"
+        app:showAsAction="never" />
+
+</menu>
